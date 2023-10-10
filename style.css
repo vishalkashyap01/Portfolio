@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&family=Dancing+Script:wght@400;500&display=swap');
+
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+
+/* Craeted logo with out any help */
+#logo {
+  height: 35px;
+  width: 35px;
+  margin: 3px;
+  border-radius: 50%;
+  padding-top: 5px;
+  border: 2px solid #000;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  letter-spacing: 0.8;
+  color: #fff;
+  animation: logoAnimation 4s ease-in-out 1s infinite alternate-reverse;
+}
+/* Nav bar style */
+nav {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* Anchor tags  */
+.links {
+  height: 40px;
+  width: 60px;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Asap', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 1.2px;
+}
+
+/* Section-1 : code */
+
+.section-1{
+  padding-bottom: 15px;
+}
+
+div {
+  display: inline-block;
+}
+
+main{
+  padding-top: 40px;
+  background-color: gainsboro;
+}
+
+/* Image section  */
+
+#myimage {
+  height: 300px;
+  width: 300px;
+  border-radius: 50% 50%;
+  display: -webkit-inline-box;
+  filter: saturate(0);
+  margin-left: 20px;
+  align-items: center;
+  box-shadow: 4px 4px 10px black;
+}
+
+/* Textual information section */
+.box {
+  height: 650px;
+  width: 570px;
+  box-sizing: border-box;
+}
+
+h2,.about-text {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Segoe UI";
+  color: #000;
+}
+
+#myintro {
+  font-size: 20px;
+  letter-spacing: 9px;
+  font-weight: 500;
+  color: black;
+}
+
+.intro {
+  font-size: 65px;
+  line-height: 0.8;
+}
+
+/* Download button for CV */
+#CV {
+  height: 46px;
+  width: 150px;
+  border: 2px solid #fff;
+  padding: 0px 5px 5px;
+  margin-left: 5px;
+  font-size: large;
+  font-family: "Segoe UI";
+  background-color: #000;
+  color: #fff;
+}
+
+/* Hover Effect for button & links */
+
+#CV:hover {
+  color: greenyellow;
+  border-color: greenyellow;
+  background-color: rgb(7, 6, 7);
+  transition: ease-in-out 1s;
+}
+
+@keyframes logoAnimation {
+  from {
+    color: aqua;
+    background-color: #000;
+    box-shadow: 1.5px 1.5px 2px solid #fff;
+  }
+  to {
+    color: black;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 1.5px 1.5px 2px solid #000;
+  }
+}
+
+h2::selection {
+  background-color: #fff;
+  color: #000;
+}
+#intro ,h2:hover {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.links:hover {
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Section 2 -- Abour us */
+
+.section-2{
+  background-color: dimgrey; 
+  padding-top: 20px;
+  color: #fff;
+  height: 330px;
+}
+.section-2 .box-1{
+  background-color: transparent;
+  width: 850px;
+  position: relative;
+  display: inline-block;
+}
+
+.section-2 > .box-2{
+  width: 384px;
+  position: relative;
+  display: inline-block;
+  font-family: 'Asap', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+}
+
+.box-1 > h2{
+  color: #fff;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 10px black;
+    padding-bottom: 25px;
+    text-align: left;
+  }
+
+  .box-1 > p{
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    padding-left: 25px;
+  }
+
+  .box-2 {
+    color: greenyellow;
+    text-shadow: 1px 1px 2px #000;
+    font-size: 25px;
+    font-family: 'Asap', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    padding-left: 25px;
+  }
+
+  .box-3 {
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    padding-left: 25px;
+  }
+
+  
