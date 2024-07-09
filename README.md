@@ -23,7 +23,7 @@ Welcome to my portfolio! This repository highlights my skills, projects, and exp
 ## Skills
 
 - **Technical Skills** : Java, Python, C, Javascript, Node.js, Next.js, html, CSS, BootStrap, Git/GitHub, Android Studio, MS Office.
-- **Core Skills** :
+- **Core Skills** : Operating System, Database, OOPs Concepts, Networking.
 - **Soft Skills** : Problem-solving, Flexible, Adaptive, Disciplined & Team player.
 
 ## Experience
