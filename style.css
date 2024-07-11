@@ -207,4 +207,69 @@ font-family: 'Barlow Condensed', sans-serif;
     padding-left: 25px;
   }
 
+
+
+/* Code by Chat GPT */
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&family=Dancing+Script:wght@400;500&display=swap');
+
+/* General reset and basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Asap', sans-serif; /* Default fallback font */
+}
+
+/* Responsive adjustments using media queries */
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  #logo {
+    height: 30px;
+    width: 30px;
+    /* Adjust other properties as needed */
+  }
+
+  .links {
+    font-size: 14px;
+    /* Adjust other properties as needed */
+  }
+
+  .section-1 {
+    padding-bottom: 10px;
+    /* Adjust other properties as needed */
+  }
+
+  .box {
+    width: 100%; /* Full width on smaller screens */
+    /* Adjust other properties as needed */
+  }
+
+  #myimage {
+    height: 200px;
+    width: 200px;
+    /* Adjust other properties as needed */
+  }
+
+  .box-1 {
+    width: 100%;
+    /* Adjust other properties as needed */
+  }
+
+  .box-2 {
+    width: 100%;
+    /* Adjust other properties as needed */
+  }
+}
+
+/* Your existing non-responsive styles can follow */
+/* ... */
+
+
+
+
   
