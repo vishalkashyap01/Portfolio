@@ -60,4 +60,4 @@ This portfolio is licensed under the Vishal kashyap License. See the [LICENSE](L
 
  - "This marks my inaugural project hosted on GitHub, utilizing GitHub Pages for hosting."
  
- #                                                       Made with love by Vishal
+                                                                          Made with love by Vishal
