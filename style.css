@@ -171,6 +171,7 @@ h2::selection {
 font-family: 'Barlow Condensed', sans-serif;
 }
 
+//Styling of h2 inside Div-1
 .box-1 > h2{
   color: #fff;
     font-size: 60px;
@@ -181,6 +182,7 @@ font-family: 'Barlow Condensed', sans-serif;
     text-align: left;
   }
 
+//Div 1 styling
   .box-1 > p{
     font-size: 20px;
     font-family: 'Asap', sans-serif;
@@ -189,6 +191,7 @@ font-family: 'Barlow Condensed', sans-serif;
     padding-left: 25px;
   }
 
+//Div 2 styling
   .box-2 {
     color: greenyellow;
     text-shadow: 1px 1px 2px #000;
@@ -199,6 +202,7 @@ font-family: 'Barlow Condensed', sans-serif;
     padding-left: 25px;
   }
 
+//Div 3 styling
   .box-3 {
     font-size: 20px;
     font-family: 'Asap', sans-serif;
@@ -206,70 +210,3 @@ font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
     padding-left: 25px;
   }
-
-
-
-/* Code by Chat GPT */
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&family=Dancing+Script:wght@400;500&display=swap');
-
-/* General reset and basic styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  font-family: 'Asap', sans-serif; /* Default fallback font */
-}
-
-/* Responsive adjustments using media queries */
-@media (max-width: 768px) {
-  /* Adjustments for smaller screens */
-  #logo {
-    height: 30px;
-    width: 30px;
-    /* Adjust other properties as needed */
-  }
-
-  .links {
-    font-size: 14px;
-    /* Adjust other properties as needed */
-  }
-
-  .section-1 {
-    padding-bottom: 10px;
-    /* Adjust other properties as needed */
-  }
-
-  .box {
-    width: 100%; /* Full width on smaller screens */
-    /* Adjust other properties as needed */
-  }
-
-  #myimage {
-    height: 200px;
-    width: 200px;
-    /* Adjust other properties as needed */
-  }
-
-  .box-1 {
-    width: 100%;
-    /* Adjust other properties as needed */
-  }
-
-  .box-2 {
-    width: 100%;
-    /* Adjust other properties as needed */
-  }
-}
-
-/* Your existing non-responsive styles can follow */
-/* ... */
-
-
-
-
-  
