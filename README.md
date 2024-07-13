@@ -1,4 +1,4 @@
-# [Vishal Kashyap] - Portfolio
+# Vishal Kashyap - Portfolio
 
 Welcome to my portfolio! This repository highlights my skills, projects, and experience, demonstrating my capabilities as a Software Developer.
 
